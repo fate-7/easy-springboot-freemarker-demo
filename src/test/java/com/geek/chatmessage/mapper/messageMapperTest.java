@@ -1,6 +1,6 @@
-package com.geek.chatmassage.mapper;
+package com.geek.chatmessage.mapper;
 
-import com.geek.chatmassage.pojo.Message;
+import com.geek.chatmessage.pojo.Message;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;

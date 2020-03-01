@@ -1,4 +1,4 @@
-package com.geek.chatmassage.pojo;
+package com.geek.chatmessage.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

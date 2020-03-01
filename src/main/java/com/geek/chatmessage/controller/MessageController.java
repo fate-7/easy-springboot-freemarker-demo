@@ -1,7 +1,7 @@
-package com.geek.chatmassage.controller;
+package com.geek.chatmessage.controller;
 
-import com.geek.chatmassage.pojo.Message;
-import com.geek.chatmassage.service.MessageService;
+import com.geek.chatmessage.pojo.Message;
+import com.geek.chatmessage.service.MessageService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.gson.Gson;
@@ -9,11 +9,9 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.Map;
@@ -35,8 +33,7 @@ public class MessageController {
 
 
     @RequestMapping("/list")
-    public String list(Message message,
-                             Map<String, Object> map,
+    public String list(Message message, Map<String, Object> map,
                              @RequestParam(value="pageNum",defaultValue="1")Integer pageNum,
                              @RequestParam(value="pageSize",defaultValue="5")Integer pageSize) {
 

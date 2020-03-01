@@ -1,6 +1,6 @@
-package com.geek.chatmassage.service;
+package com.geek.chatmessage.service;
 
-import com.geek.chatmassage.pojo.Message;
+import com.geek.chatmessage.pojo.Message;
 
 import java.util.List;
 

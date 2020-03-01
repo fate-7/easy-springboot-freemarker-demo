@@ -1,6 +1,6 @@
-package com.geek.chatmassage.mapper;
+package com.geek.chatmessage.mapper;
 
-import com.geek.chatmassage.pojo.Message;
+import com.geek.chatmessage.pojo.Message;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

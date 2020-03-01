@@ -1,8 +1,8 @@
-package com.geek.chatmassage.service.impl;
+package com.geek.chatmessage.service.impl;
 
-import com.geek.chatmassage.mapper.MessageMapper;
-import com.geek.chatmassage.pojo.Message;
-import com.geek.chatmassage.service.MessageService;
+import com.geek.chatmessage.mapper.MessageMapper;
+import com.geek.chatmessage.pojo.Message;
+import com.geek.chatmessage.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

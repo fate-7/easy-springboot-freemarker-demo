@@ -1,10 +1,10 @@
-package com.geek.chatmassage;
+package com.geek.chatmessage;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChatmassageApplicationTests {
+class ChatmessageApplicationTests {
 
     @Test
     void contextLoads() {
